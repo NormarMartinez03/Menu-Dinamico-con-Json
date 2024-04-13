@@ -1,0 +1,34 @@
+{
+	"items" : [
+		{
+			"name": "Inicio",
+			"url": "index.html"
+		},
+		{
+			"name": "Quienes Somos",
+			"url": "info.html"
+		},
+		{
+			"name": "Servicios",
+			"url": "#",
+			"items": [
+				{
+					"name": "mantenimiento",
+					"url": "mantenimiento.html"
+				},
+				{
+					"name": "Venta",
+					"url": "venta.html"
+				}
+			]
+		},
+		{
+			"name": "Contacto",
+			"url": "contacto.html"
+		},
+		{
+			"name" : "youtube",
+			"url"  : "https://www.youtube.com"
+		}
+	]
+}
