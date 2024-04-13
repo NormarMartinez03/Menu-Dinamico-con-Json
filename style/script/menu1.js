@@ -39,7 +39,7 @@ function createMenu(items) {
 
 // Cargar el menú usando fetch()
 function cargardata() {
-fetch('https://github.com/NormarMartinez03/Menu-Dinamico-con-Json/blob/9e8444998e88c6aa0cfcfa7a5bc9ac1bf0455426/json/Menu.json')
+fetch('https://raw.githubusercontent.com/NormarMartinez03/Menu-Dinamico-con-Json/main/json/Menu.json')
   .then(response => response.json())
   .then(data => {
     menu.appendChild(createMenu(data.items));
